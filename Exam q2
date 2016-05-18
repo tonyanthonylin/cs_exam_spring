@@ -11,4 +11,17 @@ public interface Greetings{
 -----------------------------------------------------
 
 a)  Explain what an interface is.
+
+An interface is where full of fields and methods, and you runs the code in the interface, the interface may connect to other codes by using polymorphism or inheritance, and with interface, we'll not be limited by the numbers of superclass we can create.
+
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+
+Public class ChineseSpeaker implements Greetings{
+  public String FormalHello(){
+  System.out.println("你好")}
+  Public String CasualHello(){
+  System.out.println("哟")}
+
+}
+  
+
