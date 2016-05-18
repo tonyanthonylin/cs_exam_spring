@@ -67,4 +67,13 @@ It is fist in first out. (FIFO)
 
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
 
-
+  public link peek(){
+    return this.head;
+}
+  public void remove(){
+    this.head.setNext(head.getNext());
+    this.head.getNext();
+    this.head=this.head.getNext();
+    length = length -1;}
+  
+  
